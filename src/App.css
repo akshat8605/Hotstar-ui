@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  padding:20px 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.header-1{
+  width: 50%;
+  display: flex;
   color: white;
+  justify-content: space-between;
+}
+.header-1 div{
+  text-transform: uppercase;
+}
+.input_cont input{
+  background-color: transparent;
+  border:none;
+  border-bottom: 2px solid white;
+  width: 230px;
+  font-size: 18px;
+}
+.input_cont{
+  position: relative;
+  width: 230px;
+}
+.input_cont img{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.login{
+  text-transform: uppercase;
+  color:white;  
+  font-size: 17px;
+}
+.subscribe{
+  background-color: #1f80e0;
+  text-transform: uppercase;
+  color:white;
+  padding: 3px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.header-2{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.slider_card{
+  width: 95% !important;
+  background-color: #030B17;
+  height: 430px;
+  color: white;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: flex !important;
+  flex-direction: row;
+  border-radius: 15px;
+  position: relative !important;
+}
+.slider_card img{
+  float: right;
+  width: 60%;
+}
+.textArea{
+  width: 40%;
+  padding: 40px;
+  padding-top: 80px;
+}
+.title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.disc{
+  color: darkgray;
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: 500;
+}
+.content{
+  margin: 10px;
+  width: 460px;
 }
 
-.App-link {
-  color: #61dafb;
+.gradient{
+  position: absolute;
+  width: 250px;
+  left: 40%;
+  top: 0px;
+  height: 100%;
+  margin-left: -60px;
+  /* background: linear-gradient(to right , #030817 , rgba(0,0,0,0) ); */
+  background:  linear-gradient(to right ,#030B17  0%,#030B17 50%,rgba(0,0,0,0.001) 100%);
+  transition: background 0.3s ease-in;
+}
+.mini_slider{
+  margin: 40px;
+}
+.title_slider{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.mini_slider_card{
+  height: 230px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.mini_slider_card img{
+  width: 95%;
+  height: 230px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider-1{
+  margin-top: 10px;
 }
